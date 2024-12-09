@@ -1,4 +1,4 @@
-name: spring-sonorQube-demo
+name: spring-sonorQube-demo1
 on:
   push:
      branches: ["main"]
