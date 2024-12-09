@@ -1,7 +1,9 @@
-name: spring-sonorQube-demo1
 on:
+  # Trigger analysis when pushing to your main branches, and when creating a pull request.
   push:
-     branches: ["main"]
+    branches: ["main"]
+    
+name: spring-sonorQube-demo1    
 jobs:
   build:
     name: Build and analyze
