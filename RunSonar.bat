@@ -1,0 +1,1 @@
+mvn clean verify sonar:sonar   -Dsonar.projectKey=spring-sonorQube-demo   -Dsonar.projectName='spring-sonorQube-demo'   -Dsonar.host.url=http://localhost:9050   -Dsonar.token=sqp_891d28a583751c5f389ce527bc4c09a61b38a2aa
