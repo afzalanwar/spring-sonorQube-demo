@@ -34,4 +34,4 @@ jobs:
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}  # Needed to get PR information, if any
           SONAR_TOKEN: ${{ secrets.SONAR_TOKEN }}
-        run: mvn -B verify org.sonarsource.scanner.maven:sonar-maven-plugin:sonar -Pcoverage -f pom.xml  -Dsonar.projectKey=afzalanwar_SonarQube1 -Dsonar.verbose=true
+        run: mvn -B verify org.sonarsource.scanner.maven:sonar-maven-plugin:sonar -Pcoverage -f pom.xml  -Dsonar.projectBaseDir=. -Dsonar.projectKey=afzalanwar_SonarQube1 -Dsonar.verbose=true
