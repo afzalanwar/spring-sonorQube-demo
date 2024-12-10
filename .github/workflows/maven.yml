@@ -34,4 +34,4 @@ jobs:
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}  # Needed to get PR information, if any
           SONAR_TOKEN: ${{ secrets.SONAR_TOKEN }}
-        run: mvn -B verify sonar:sonar -Pcoverage -f pom.xml  -Dsonar.projectKey=afzalanwar_SonarQubeDemoAnw1 -Dsonar.verbose=true
+        run: mvn -B verify sonar:sonar -Pcoverage -f pom.xml  -Dsonar.projectKey=afzalanwar_spring-sonorQube-demo -Dsonar.verbose=true
